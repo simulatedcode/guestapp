@@ -2,16 +2,16 @@
   "name": "guestbook",
   "version": "0.0.0",
   "private": true,
-  "AllowJS": true,
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check build-only",
+    "build": "run-p build-only",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "firebase": "^9.14.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {

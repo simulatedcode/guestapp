@@ -1,7 +1,7 @@
-<script setup></script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="rounded-xl border-2 bg-white border-black shadow-xl">
+  <div class="rounded-xl border bg-white border-purple-600 shadow-xl">
     <div class="px-12 py-8">
       <div>
         <h1 class="text-2xl font-semibold">Welcome to Rumah IVAA</h1>
@@ -18,7 +18,7 @@
               <label for="Name" class="text-sm text-gray-600">Name</label>
               <input
                 type="text"
-                class="mt-1 w-full border-b border-gray-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
+                class="mt-1 w-full border-b border-slate-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
                 placeholder="Name"
               />
             </div>
@@ -28,7 +28,7 @@
               >
               <input
                 type="text"
-                class="mt-1 w-full border-b border-gray-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
+                class="mt-1 w-full border-b border-slate-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
                 placeholder="Instance"
               />
             </div>
@@ -36,12 +36,12 @@
               <label for="email" class="text-sm text-gray-600">Email</label>
               <input
                 type="email"
-                class="mt-1 w-full border-b border-gray-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
+                class="mt-1 w-full border-b border-slate-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
                 placeholder="your@email"
               />
               <div class="pt-6">
                 <div
-                  class="inline-block text-blue-100 border bg-blue-600 px-6 py-2"
+                  class="inline-block text-purple-100 border bg-purple-600 px-6 py-2"
                 >
                   Submit
                 </div>
