@@ -6,7 +6,7 @@
       <div>
         <HeaderPage />
       </div>
-      <div class="max-w-3xl mx-auto pt-6">
+      <div class="max-w-3xl mx-auto p-6">
         <GuestForm />
       </div>
     </div>

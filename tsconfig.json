@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "types": ["unplugin-icons/types/vue"],
     "jsx": "preserve",
     "baseUrl": ".",
