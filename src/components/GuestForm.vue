@@ -27,9 +27,7 @@ const submitForm = async () => {
   <div class="rounded-xl border bg-white border-purple-600 shadow-xl">
     <div class="px-12 py-8">
       <div>
-        <div class="text-2xl font-semibold">
-          Welcome to Rumah IVAA
-        </div>
+        <h1 class="text-2xl font-semibold">Welcome to Rumah IVAA</h1>
         <p class="text-sm text-gray-600 pt-4">
           We are grateful for your visit, kindly take a moment to fill out your
           contact information and provide us with feedback. Your comments will
@@ -41,36 +39,23 @@ const submitForm = async () => {
           <div class="grid grid-cols-6 gap-6">
             <div class="col-span-6 sm:col-span-3">
               <label for="Name" class="text-sm text-gray-600">Name</label>
-              <input
-                v-model="form.name"
-                type="text"
+              <input v-model="form.name" type="text"
                 class="mt-1 w-full border-b border-slate-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
-                placeholder="Name"
-              />
+                placeholder="Name" />
             </div>
             <div class="col-span-6 sm:col-span-3">
-              <label for="instance" class="text-sm text-gray-600"
-                >Instance</label
-              >
-              <input
-                v-model="form.instance"
-                type="text"
+              <label for="instance" class="text-sm text-gray-600">Instance</label>
+              <input v-model="form.instance" type="text"
                 class="mt-1 w-full border-b border-slate-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
-                placeholder="Instance"
-              />
+                placeholder="Instance" />
             </div>
             <div class="col-span-6 sm:col-span-3">
               <label for="email" class="text-sm text-gray-600">Email</label>
-              <input
-                v-model="form.email"
-                type="email"
+              <input v-model="form.email" type="email"
                 class="mt-1 w-full border-b border-slate-600 px-4 py-2 bg-gray-100 text-sm focus:outline-none"
-                placeholder="your@email"
-              />
+                placeholder="your@email" />
               <div class="pt-6">
-                <button
-                  class="inline-block text-purple-100 border bg-purple-600 px-6 py-2"
-                >
+                <button class="inline-block text-purple-100 border bg-purple-600 px-6 py-2">
                   Submit
                 </button>
               </div>
