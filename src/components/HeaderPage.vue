@@ -5,8 +5,8 @@
     <div class="flex justify-between items-center">
       <div class="flex items-center space-x-2">
         <CarbonNotebook class="text-xl" />
-        <h1 class="font-semibold text-2xl">Guestbook</h1>
-      </div>
+        <div class="font-semibold text-2xl">Guestbook</div>
+     </div>
       <div class="flex">
         <LogoIcons />
       </div>

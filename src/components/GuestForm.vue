@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { ref } from 'vue';
 import { addDoc, collection, getDocs } from 'firebase/firestore';
 import { db } from '../firebase';
 
@@ -27,7 +27,9 @@ const submitForm = async () => {
   <div class="rounded-xl border bg-white border-purple-600 shadow-xl">
     <div class="px-12 py-8">
       <div>
-        <h1 class="text-2xl font-semibold">Welcome to Rumah IVAA</h1>
+        <div class="text-2xl font-semibold">
+          Welcome to Rumah IVAA
+        </div>
         <p class="text-sm text-gray-600 pt-4">
           We are grateful for your visit, kindly take a moment to fill out your
           contact information and provide us with feedback. Your comments will
