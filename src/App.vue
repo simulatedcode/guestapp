@@ -10,5 +10,8 @@
         <GuestForm />
       </div>
     </div>
+    <footer class="max-w-2xl mx-auto">
+      <div class="text-sm text-gray-600">copyright © 2022. Rumah IVAA</div>
+    </footer>
   </div>
 </template>
