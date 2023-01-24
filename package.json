@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@volar/vue-language-service": "^1.0.11",
-    "firebase": "^9.14.0",
+    "firebase": "^9.15.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {

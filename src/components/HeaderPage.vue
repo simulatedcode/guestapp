@@ -6,7 +6,7 @@
       <div class="flex items-center space-x-2">
         <CarbonNotebook class="text-xl" />
         <div class="font-semibold text-2xl">Guestbook</div>
-     </div>
+      </div>
       <div class="flex">
         <LogoIcons />
       </div>
