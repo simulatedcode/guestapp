@@ -11,13 +11,13 @@ const form = ref({
 
 //submitform vue firebase with refresh
 const submitForm = async () => {
-  await addDoc(collection(db, 'guests-24Jan'), form.value);
+  await addDoc(collection(db, 'visitor'), form.value);
   form.value = {
     name: '',
     email: '',
     instance: '',
   };
-  const querySnapshot = await getDocs(collection(db, 'guests-24Jan'));
+  const querySnapshot = await getDocs(collection(db, 'visitor'));
   querySnapshot.forEach((doc) => {
     console.log(`${doc.id} => ${doc.data()}`);
   });
